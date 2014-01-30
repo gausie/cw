@@ -1,0 +1,15 @@
+div.content-warning-blackout {
+
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+
+  /* These might be overridden with JS */
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+
+}
