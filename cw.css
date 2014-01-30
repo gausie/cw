@@ -1,10 +1,12 @@
-div.content-warning-blackout {
+aside.content-warning-blackout {
 
   background-color: black;
   opacity: 0.9;
   color: white;
   border-radius: 5px;
   position: absolute;
+  text-align: center;
+  padding: 5px;
 
   /* These might be overridden with JS */
   width: 100%;
@@ -12,4 +14,13 @@ div.content-warning-blackout {
   top: 0px;
   left: 0px;
 
+}
+
+aside.content-warning-blackout span.content-warning-reason {
+  font-weight: bold;
+}
+
+aside.content-warning-blackout button {
+  display: block;
+  margin: 0 auto 0 auto;
 }
